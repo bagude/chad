@@ -48,9 +48,18 @@
 2. Core Services
 
    - [ ] Configuration management
-     - Environment handling
-     - Secrets management
-     - Feature flags
+     - [x] Environment handling
+       - Added environment variable overrides
+       - Added type conversion support
+       - Added nested key support
+     - [x] Secrets management
+       - Added secrets file support
+       - Added secure merging
+       - Added isolation from base config
+     - [x] Feature flags
+       - Added YAML configuration
+       - Added dynamic overrides
+       - Added type-safe access
    - [ ] Structured logging
      - Performance metrics
      - Error tracking
